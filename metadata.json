@@ -1,0 +1,8 @@
+{
+  "name": "PsychoAnalyze AI",
+  "description": "An advanced multimodal psychological profiling tool. Upload photos, texts, PDFs, or record screen/audio to build an evolving, comprehensive personality profile using Gemini 2.5.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
