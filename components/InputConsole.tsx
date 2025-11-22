@@ -1,6 +1,13 @@
 import React, { useState, useRef } from 'react';
 import { MediaType } from '../types';
-import { VideoCameraIcon, MicrophoneIcon, DocumentTextIcon, PhotoIcon, ComputerDesktopIcon, DocumentPlusIcon } from '@heroicons/react/24/outline';
+import {
+  VideoCameraIcon,
+  MicrophoneIcon,
+  DocumentTextIcon,
+  PhotoIcon,
+  ComputerDesktopIcon,
+  DocumentPlusIcon,
+} from '@heroicons/react/24/outline';
 
 interface InputConsoleProps {
   onAnalyze: (files: File[], type: MediaType, description: string) => Promise<void>;
